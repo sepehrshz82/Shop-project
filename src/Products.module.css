@@ -1,0 +1,141 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 7px;
+    color: white;
+    background: linear-gradient(30deg, rgb(65, 136, 194), rgb(132, 190, 248));
+    margin-left: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.login:hover{
+    background: linear-gradient(0deg, rgb(85, 165, 245),  rgb(85, 165, 245));
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 7px;
+    color: white;
+    background: linear-gradient(30deg, rgb(65, 136, 194), rgb(132, 190, 248));
+    margin-left: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.signup:hover{
+    background: linear-gradient(0deg, rgb(85, 165, 245),  rgb(85, 165, 245));
+}
+.image{
+    right: 10px;
+    top: 10px;
+    position: fixed;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 53px;
+    top: 47px;
+    height: 20px;
+    font-size: 15px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(81, 151, 209);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.cart{
+    height: 480px;
+    width: 360px;
+    background: linear-gradient(30deg, rgb(64, 144, 209), rgb(132, 190, 248));
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    right: 70px;
+    border-radius: 10px;
+    transition: 0.7s;
+    overflow-y: auto;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.cartclose{
+    height: 0px;
+    width: 0px;
+    background: linear-gradient(30deg, rgb(81, 151, 209), rgb(118, 186, 255));
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    right: 70px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.buy{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.buy > span{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.buy > div{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 34px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    margin-top: 20px;
+    right: 25px;
+    cursor: pointer;
+    background: linear-gradient(to right, white 50%, rgb(100, 168, 230) 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all .8s ease-in-out;
+}
+.buy > div:hover{
+    background-color: white;
+    color: black;
+    background-position: bottom left;
+}
+.arrow{
+    margin-left: -20px;
+    transition: 1s;
+    height: 20px;
+    width: 20px;
+    opacity: 0;
+}
+.arrow2{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    opacity: 1;
+    transition: 1s;
+}
+.buy > div:hover > .arrow{
+    margin-left: -20px;
+    transition: 1s;
+    opacity: 1;
+}
+.buy > div:hover > .arrow2{
+    margin-left: 55px;
+    opacity: 0;
+    transition: 1s;
+}

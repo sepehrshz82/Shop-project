@@ -1,0 +1,116 @@
+.container{
+    background: linear-gradient(40deg, rgb(52, 143, 218), rgb(158, 201, 245));
+    height: 320px;
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    box-shadow: 5px 8px 15px grey;
+    font-family: 'Open Sans', sans-serif;
+}
+.image{
+    margin-top: 2px;
+    margin-left: 1px;
+    width: 226px;
+    height: 200px;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+.name{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.fx{
+    display: flex; 
+ }
+.price{
+    background-color: white;
+    padding: 2px 12px 0px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 50px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+button{
+    all: unset;
+    cursor: pointer;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: white;
+    height: 22px;
+    width: 18px;
+    border-radius: 2px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    margin-left: 55px;
+    margin-top: 30px;
+    border-radius: 10%;
+    border: 1px solid white;
+    color: white;
+    background: linear-gradient(to top, white 50%, rgb(86, 162, 224) 50%);
+    background-size: 100% 200%;
+    transition: all .4s ease-in-out;
+    font-size: 20px;
+}
+.add:hover{
+    background-color: white;
+    color: rgb(86, 162, 244);
+    background-position: bottom;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 10%;
+    border: 1px solid white;
+    color: white;
+    background: linear-gradient(to top, white 50%, rgb(86, 162, 224) 50%);
+    background-size: 100% 200%;
+    transition: all .4s ease-in-out;
+    font-size: 20px;
+}
+.delete:hover{
+    background-color: white;
+    color: rgb(86, 162, 244);
+    background-position: bottom;
+}
+.detail{
+    color: white;
+    font-size: 17px;
+    margin-left: -55px;
+    margin-top: -20px;
+}
+@media screen and (max-width: 750px){
+    .container{
+        margin-left: 40px;
+        height: 270px;
+        width: 180px;
+        margin-top: 80px;
+    }
+    .image{
+        height: 170px;
+        width: 176px;
+    }
+}

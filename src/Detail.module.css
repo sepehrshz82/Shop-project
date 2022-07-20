@@ -1,0 +1,101 @@
+.container{
+    height: 380px;
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background: linear-gradient(30deg, rgb(52, 143, 218), rgb(158, 201, 245));
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.imgcnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.image{
+    height: 280px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.name{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    bottom: 200px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.detail{
+    font-size: 21px;
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 250px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 200px;
+    margin-left: 350px;
+    font-size: 21px;
+    color: white;
+    border: 1px solid white;
+    height: 48px;
+    width: 140px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 50%, rgb(92, 173, 240) 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all .6s ease-in-out;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    background-position: left;
+}
+.arrow{
+    height: 23px;
+    width: 23px;
+    margin-left: -23px;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+    z-index: 2;
+}
+.arrow2{
+    height: 23px;
+    width: 23px;
+    margin-left: 20px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+.btn:hover > .arrow{
+    margin-left: -20px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+.btn:hover > .arrow2{
+    margin-left: 70px;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}

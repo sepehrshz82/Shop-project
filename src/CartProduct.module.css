@@ -1,0 +1,31 @@
+.container{
+    margin-top: 20px;
+    margin-left: 14px;
+    height: 120px;
+    width: 320px;
+    border-radius: 7px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.image{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+    border: 0.5px solid grey;
+}
+.name{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 130px;
+}
+.number{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 130px;
+}
+.price{
+    margin-top: -30px;
+    margin-left: 155px;
+}
